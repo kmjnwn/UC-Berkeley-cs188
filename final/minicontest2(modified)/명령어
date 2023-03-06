@@ -1,0 +1,11 @@
+cd C:\Users\dcba6\Desktop\2학년 1학기\인지\final\minicontest2(modified)
+
+python capture.py -r 2021320122 -b your_best
+
+python capture.py -r baseline -b baseline
+python capture.py -r baseline -b baseline -l RANDOM[seed]
+
+
+
+python capture.py -r your_baseline1 -b your_best -l RANDOM10
+python capture.py --keys0
